@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Craft - Create Stunning Videos</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+    <script src="static/script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="/static/logo_final.png" alt="Slide Craft Logo">
+        <div class="logo-name">SLIDE CRAFT</div>
+    </header>
+
+    <nav class="separate-nav">
+        <a href="#about">About</a>
+        <a href="https://www.craiyon.com/" target="_blank">AI</a>
+        <a href="#learn">Learn</a>
+        <a href="/login">Login</a>
+        <a href="#team">Team</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Images Into Stunning Videos</h1>
+            <p>Create professional-quality slideshows with just a few clicks</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to bring your ideas to life?</h2>
+        <button type="button" onclick="openDropbox()">Start Creating Now</button>
+    </section>
+
+    <section class="features">
+        <h2 class="features-heading">Why Choose Slide Craft?</h2>
+        <div class="features-container">
+            <div class="feature">
+                <h1>Easy to Use</h1>
+                <p class="inf">Effortlessly create videos with our user-friendly platform. No technical skills required.</p>
+            </div>
+            <div class="feature">
+                <h1>High-Quality Output</h1>
+                <p class="inf">Experience stunning video quality with our advanced photo-to-video conversion technology.</p>
+            </div>
+            <div class="feature">
+                <h1>Customization Options</h1>
+                <p class="inf">Personalize your videos with a range of customization options, including music, transitions, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <img src="/static/about.png" alt="About Slide Craft">
+            <div class="about_heading">
+                <h2>FEATURES</h2>
+                <div id="li-box">Create stunning videos</div>
+                <div id="li-box">Empower creativity</div>
+                <div id="li-box">User-friendly experience</div>
+                <div id="li-box">Advanced technologies</div>
+            </div>
+            <div class="about-text">
+                <h2>About Slide Craft</h2>
+                <p>Slide Craft is a revolutionary platform that empowers users to transform their ideas into captivating videos. Our mission is to provide an intuitive and user-friendly experience, making video creation accessible to everyone.</p>
+                <p>With advanced technologies and customizable options, Slide Craft is your go-to solution for producing high-quality videos effortlessly. We believe in the power of storytelling through visuals, enabling you to craft captivating slideshows that bring your memories to life in stunning detail.</p>
+                <p>Our goal is to simplify the process of creating dynamic slideshows, providing you with the tools you need to transform your precious memories into unforgettable experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline-container" id="learn">
+        <div class="timeline">
+            <h2 class="headlearn">How It Works</h2>
+            <div class="card">
+                <div class="info">
+                    <h3 class="title">Step 1: Upload</h3>
+                    <p>Add single or multiple images using the dropbox and upload an audio file. You can also select and delete the uploaded images as needed.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <h3 class="title">Step 2: Customize</h3>
+                    <p>Select the display time for each picture and add suitable transition effects to create a professional-looking slideshow.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <h3 class="title">Step 3: Create</h3>
+                    <p>You're all set! Preview your video and download the final product to share with friends and family.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-image">
+            <img id="time-img" src="/static/learn.png" alt="Learn with Slide Craft">
+        </div>
+    </section>
+
+    <div class="responsive-container-block" id="team">
+        <div class="responsive-container-block inner-container">
+            <p class="meet">
+                <u>Meet Our Team</u>
+            </p>
+            <div class="team-card-container">
+                <div class="team-card">
+                    <div class="img-wrapper">
+                        <img class="team-img" src="/static/virat.png" alt="Virat Garg">
+                    </div>
+                    <p class="name">Virat Garg</p>
+                    <p class="text-blk">Lead Developer</p>
+                    <div class="social-media-links">
+                        <a href="http://www.instagram.com/_virat_garg" target="_blank">
+                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg" alt="Instagram">
+                        </a>
+                        <a href="mailto:gargvirat5@gmail.com">
+                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg" alt="Email">
+                        </a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="img-wrapper">
+                        <img class="team-img" src="/static/khwaish.png" alt="Khwaish Garg">
+                    </div>
+                    <p class="name">Khwaish Garg</p>
+                    <p class="text-blk">UI/UX Designer</p>
+                    <div class="social-media-links">
+                        <a href="http://www.instagram.com/khwaish.30" target="_blank">
+                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg" alt="Instagram">
+                        </a>
+                        <a href="mailto:khwaishgarg38@gmail.com">
+                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg" alt="Email">
+                        </a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="img-wrapper">
+                        <img class="team-img" src="/static/akshat.png" alt="Akshat Srivastava">
+                    </div>
+                    <p class="name">Akshat Srivastava</p>
+                    <p class="text-blk">Backend Developer</p>
+                    <div class="social-media-links">
+                        <a href="http://www.instagram.com/" target="_blank">
+                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg" alt="Instagram">
+                        </a>
+                        <a href="mailto:akshatsrivastava6951@gmail.com">
+                            <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg" alt="Email">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SLIDE CRAFT - Transform Your Images Into Amazing Videos</p>
+    </footer>
+
+    <script>
+        function openDropbox() {
+            // Implement dropbox functionality here
+            alert("Dropbox functionality will be implemented here!");
+        }
+    </script>
+</body>
+
+</html>
